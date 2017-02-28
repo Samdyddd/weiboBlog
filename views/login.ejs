@@ -1,0 +1,40 @@
+<%- include('includes/header.ejs') -%>
+<%- include('layout.ejs') -%>
+
+<form class="form-horizontal" role="form" method="post">
+<legend>用户登录</legend>
+
+<div class="control-group row">
+<label for="username" class="control-label col-sm-2">用户名</label>
+<div class="col-sm-3">
+<input type="text" name="username" id="username" class="form-control">
+</div>
+</div>
+<br>
+
+<div class="control-group row">
+	<label for="password" class="control-label col-sm-2" name="password">密码</label>
+	<div class="col-sm-3">
+	<input type="password" name="password" id="password" class="form-control">
+</div>
+</div>
+
+<br>
+<div class="form-group">
+	<div class="col-sm-offset-1 col-sm-6">
+	<button type="submit" class="btn btn-primary">登录</button>
+</div>
+	</div>
+
+</form>
+
+
+<script>
+
+
+
+
+</script>
+
+
+<%- include('includes/footer.ejs') -%>

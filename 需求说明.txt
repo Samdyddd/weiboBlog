@@ -1,0 +1,14 @@
+功能设计：登录模块、注册模块、留言模块
+
+数据库设计：
+数据库名称：weibo
+user集合：
+用户名username
+密码password
+
+message集合：
+用户名username
+{时间 time
+留言内容 comments}
+
+//分页功能》》》

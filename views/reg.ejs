@@ -1,0 +1,50 @@
+<%- include('includes/header.ejs') -%>
+<%- include('layout.ejs') -%>
+
+<form class="form-horizontal" role="form" method="post">
+
+	<legend>用户注册</legend>
+	
+	<div class="control-group row">
+		<label for="username" class="control-label col-sm-2">用户名</label>
+	<div class="col-sm-3">
+	<input type="text" name="username" id="username" class="form-control">
+	<span>账户名用于登录和显示</span>
+	</div>
+	</div>
+	<br>
+	
+<div class="control-group row">
+	<label for="password" class="control-label col-sm-2" name="password">密码</label>
+	<div class="col-sm-3">
+	<input type="password" name="password" id="password" class="form-control">
+</div>
+</div>
+
+<br>
+<div class="control-group row">
+	<label for="password-repeat" class="control-label col-sm-2" name="password-repeat">重复密码</label>
+	<div class="col-sm-3">
+		<input type="password" name="password-repeat" id="password-repeat" class="form-control">
+	</div>
+</div>
+
+<br>
+<div class="form-group">
+	<div class="col-sm-offset-1 col-sm-6">
+	<button type="submit" class="btn btn-primary">注册</button>
+</div>
+	</div>
+
+</form>
+
+<script>
+function show(){
+alert("click")
+}
+<%# 当不能运行时就赋值一个新类名 %>
+
+
+</script>
+
+<%- include('includes/footer') -%>
